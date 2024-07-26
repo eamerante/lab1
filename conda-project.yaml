@@ -1,0 +1,11 @@
+name: 1-notebook
+maintainers:
+- 8bd35048-3623-4859-a81b-857a8661f6fa
+platforms:
+- linux-64
+environments:
+  default:
+  - environment.yaml
+commands:
+  serve:
+    cmd: panel serve 1-notebook.ipynb
